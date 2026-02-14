@@ -1,5 +1,11 @@
 # RDAP Rust Client
 
+> ⚠️ **Repository Migration Notice**
+> 
+> This repository has been migrated to [https://git.pysio.online/akaere-networks/rdap](https://git.pysio.online/akaere-networks/rdap)
+> 
+> The GitHub repository has been archived and is no longer maintained. Please use the new repository for development.
+
 A modern, elegant RDAP (Registration Data Access Protocol) client written in Rust with beautiful colored output.
 
 ## Features
@@ -33,7 +39,7 @@ A modern, elegant RDAP (Registration Data Access Protocol) client written in Rus
 ### From Source
 
 ```bash
-git clone https://github.com/Akaere-NetWorks/rdap.git
+git clone https://git.pysio.online/akaere-networks/rdap.git
 cd rdap
 cargo build --release
 sudo cp target/release/rdap /usr/local/bin/
@@ -231,7 +237,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rdap = { git = "https://github.com/Akaere-NetWorks/rdap.git" }
+rdap = { git = "https://git.pysio.online/akaere-networks/rdap.git" }
 tokio = { version = "1.35", features = ["full"] }
 ```
 
@@ -240,13 +246,13 @@ Or use a specific version/branch:
 ```toml
 [dependencies]
 # Use main branch
-rdap = { git = "https://github.com/Akaere-NetWorks/rdap.git", branch = "main" }
+rdap = { git = "https://git.pysio.online/akaere-networks/rdap.git", branch = "main" }
 
 # Or use a specific tag (when available)
-# rdap = { git = "https://github.com/Akaere-NetWorks/rdap.git", tag = "v0.1.0" }
+# rdap = { git = "https://git.pysio.online/akaere-networks/rdap.git", tag = "v0.1.0" }
 
 # Or use a specific commit
-# rdap = { git = "https://github.com/Akaere-NetWorks/rdap.git", rev = "abc123" }
+# rdap = { git = "https://git.pysio.online/akaere-networks/rdap.git", rev = "abc123" }
 
 tokio = { version = "1.35", features = ["full"] }
 ```
